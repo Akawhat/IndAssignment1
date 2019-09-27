@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//Made with GDW group - 100655510
+
+using UnityEngine;
 [RequireComponent(typeof(PlayerMotor))]
 
 public class PlayerController : MonoBehaviour
