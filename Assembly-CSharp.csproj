@@ -55,9 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PluginReader.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerMotor.cs" />
-     <Compile Include="Assets\Scripts\PluginReader.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/rcace/Documents/UOIT/Gaame Engines/IndAssignment1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

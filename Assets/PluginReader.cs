@@ -11,7 +11,7 @@ public class PluginReader : MonoBehaviour
     private Rigidbody rb;
 
     float posx, posy, posz;
-   
+
     const string DLL_NAME = "tut2";
     [DllImport(DLL_NAME)]
     private static extern int Save(float x, float y, float z);
@@ -20,7 +20,7 @@ public class PluginReader : MonoBehaviour
 
     void Start()
     {
-       rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -32,7 +32,7 @@ public class PluginReader : MonoBehaviour
             posz = rb.GetComponent<Rigidbody>().position.z;
 
             Debug.Log(Save(posx, posy, posz));
-           //Debug.Log(Load());
+            //Debug.Log(Load());
 
         }
         if (Input.GetKeyDown(KeyCode.E))
